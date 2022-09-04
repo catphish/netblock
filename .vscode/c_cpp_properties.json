@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "driver",
+            "defines": [
+                "__KERNEL__",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "gcc-x64",
+            "includePath": [
+                "/usr/src/linux-headers-5.15.0-47/include",
+                "/usr/src/linux-headers-5.15.0-47-generic/include",
+                "/usr/src/linux-headers-5.15.0-47-generic/include/generated",
+                "/usr/src/linux-headers-5.15.0-47-generic/arch/x86/include/generated",
+                "/usr/src/linux-headers-5.15.0-47/arch/x86/include"
+            ],
+            "configurationProvider": "ms-vscode.makefile-tools"
+        }
+    ],
+    "version": 4
+}
